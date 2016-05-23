@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+#lon
+{
+	position: relative;
+	height: 25px;
+	top: -10px;
+	width: 90px;
+	
+	left: 350px;
+	border: 1px solid red;
+	background-color: green;
+}
+
+#par
+{
+	position: relative;
+	height: 25px;
+	top: -10px;
+	width: 90px;
+	
+	left: 350px;
+	border: 1px solid red;
+	background-color: blue;
+}
+#tok
+{
+	position: relative;
+	height: 25px;
+	top: -10px;
+	width: 90px;
+	
+	left: 350px;
+	border: 1px solid red;
+	background-color: pink;
+}
+
+article
+{
+	float: left;
+	margin-right:auto;
+	margin-left: auto;
+	height: 150px;
+	width: 80px;
+	color: white;
+	border: 1px solid black;
+background-color: grey;
+}
+
+.row {
+	width: 100%;
+}
+@media (min-width: 992px)
+{
+  
+.col-lg-4{
+	width: 33.3%;
+	float: left;
+}
+
+
+}
+
+	@media (min-width: 767px) and (max-width: 991px)
+{
+	
+	.p3
+{
+	height: 100%
+	width:380px;
+}
+
+
+	.col-md-6{
+		float: left;
+		width: 50%;
+    }
+
+.col-md-12{
+		float: left;
+		width: 100%;
+
+    }
+
+
+
+}
+
+@media(max-width: 766px)
+{
+.col-lod-12{
+		float: left;
+		width: 100%;
+    }	
+}
